@@ -55,7 +55,7 @@
           "settings": {
             "heading": "Caractéristiques",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.poid | metafield_tag }}<\/p>",
+            "content": "<ul><li>Poids (Fabricant) : {{ product.metafields.custom.poid | metafield_tag }}<\/li><\/ul>",
             "page": ""
           }
         },
