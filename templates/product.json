@@ -55,7 +55,7 @@
           "settings": {
             "heading": "Caractéristiques",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.cadre.value }}{{ product.metafields.custom.fourche.value }}<\/p>{{ product.metafields.custom.mode_lectrique | metafield_tag }}<p>{{ product.metafields.custom.fourche.value }}<\/p><p><\/p><ul><li>Poids (Fabricant) : {{ product.metafields.custom.poid | metafield_tag }}<\/li><\/ul>",
+            "content": "<ul><li><strong>Fourche : <\/strong>{{ product.metafields.custom.fourche.value }}<\/li><\/ul>{{ product.metafields.custom.mode_lectrique | metafield_tag }}<p><\/p><p><\/p><ul><li><strong>Poids (Fabricant) :<\/strong> {{ product.metafields.custom.poid | metafield_tag }}<\/li><\/ul>",
             "page": ""
           }
         },
