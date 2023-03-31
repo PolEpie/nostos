@@ -55,7 +55,7 @@
           "settings": {
             "heading": "Caractéristiques",
             "icon": "none",
-            "content": "<p>&lcub;% if product.title == <br\/>\"Awesome Shoes\" %&rcub;<\/p><p>sdhsdg<\/p><p>&lcub;% endif %&rcub;<\/p>{{ product.metafields.custom.mode_lectrique | metafield_tag }}<ul><li>Poids (Fabricant) : {{ product.metafields.custom.poid | metafield_tag }}<\/li><\/ul>",
+            "content": "<p>{{ product.metafields.custom.cadre.value }}{{ product.metafields.custom.fourche.value }}<\/p>{{ product.metafields.custom.mode_lectrique | metafield_tag }}<p>{{ product.metafields.custom.fourche.value }}<\/p><p><\/p><ul><li>Poids (Fabricant) : {{ product.metafields.custom.poid | metafield_tag }}<\/li><\/ul>",
             "page": ""
           }
         },
